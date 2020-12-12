@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// Override default variables
+@import "_partials/variables";
+
+// Configuration
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+// Common settings
+@import "_partials/base";

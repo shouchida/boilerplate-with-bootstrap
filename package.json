@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate-with-bootstrap",
+  "version": "1.0.0",
+  "author": "shouchida",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp dev"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.26.12",
+    "connect-ssi": "^1.1.1",
+    "css-declaration-sorter": "^5.1.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^7.0.1",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-ejs": "^5.1.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-if": "^2.0.2",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-strip-comments": "^2.5.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "android >= 6.0",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1"
+  }
+}
